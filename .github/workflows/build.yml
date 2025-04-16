@@ -3,6 +3,7 @@ name: package
 on:
   push:
   merge_group:
+  workflow_dispatch:
 
 permissions:
   packages: write
