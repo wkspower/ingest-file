@@ -1,4 +1,4 @@
-INGEST=ghcr.io/alephdata/ingest-file
+INGEST=ghcr.io/wkspower/ingest-file
 COMPOSE=docker compose
 DOCKER=$(COMPOSE) run --rm -e LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1 ingest-file
 
